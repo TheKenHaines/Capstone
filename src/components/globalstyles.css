@@ -1,0 +1,30 @@
+html, body, .streachDiv, #root, .routesWrapper{
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.routeWrapper{
+  height: 85%;
+}
+.footerWrapper{
+  height: 15%;
+}
+
+/* width */
+::webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #aaa;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 10px;
+}
